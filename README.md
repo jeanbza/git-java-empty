@@ -1,4 +1,4 @@
-# git-java-pingpongpi
+# git-java-empty
 
 [![Build Status](https://travis-ci.org/jadekler/git-java-empty.svg?branch=master)](https://travis-ci.org/jadekler/git-java-empty)
 
