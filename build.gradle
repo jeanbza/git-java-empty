@@ -33,4 +33,4 @@ task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
 
-defaultTasks 'clean', 'build', 'war'
+defaultTasks 'clean', 'build'

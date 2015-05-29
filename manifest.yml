@@ -1,9 +1,0 @@
----
-applications:
-  - name: pingpongping
-    buildpack: java_buildpack
-    path: build/libs/pingpongping-0.8.0.war
-    services:
-      - mysql
-    env:
-      SPRING_PROFILES_DEFAULT: cloud
