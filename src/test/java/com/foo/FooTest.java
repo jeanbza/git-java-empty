@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.greaterThan;
 import static org.junit.Assert.assertThat;
 
 public class FooTest {
@@ -19,6 +20,6 @@ public class FooTest {
     }
 
     @Test public void testFooWrong() throws Exception {
-        assertThat(foo.foo(), equalTo(7));
+        assertThat(foo.foo(), greaterThan(3));
     }
 }

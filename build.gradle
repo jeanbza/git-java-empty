@@ -7,11 +7,10 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'war'
 
 war {
-    baseName = 'pingpongping'
-    version =  '0.8.0'
+    baseName = 'empty'
+    version =  '0.1.0'
 }
 
 repositories {
@@ -22,21 +21,6 @@ repositories {
 }
 
 dependencies {
-    compile "org.springframework:spring-core:4.0.6.RELEASE"
-    compile "org.springframework:spring-web:4.0.6.RELEASE"
-    compile "org.springframework:spring-webmvc:4.0.6.RELEASE"
-    compile "org.springframework:spring-jdbc:4.0.6.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-spring-service-connector:1.1.1.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.1.1.RELEASE"
-
-    compile "javax.servlet:javax.servlet-api:3.1.0"
-    compile "javax.servlet.jsp:javax.servlet.jsp-api:2.3.2-b01"
-
-    compile "com.fasterxml.jackson.core:jackson-databind:2.5.1"
-    compile "com.fasterxml.jackson.datatype:jackson-datatype-joda:2.5.1"
-    compile "mysql:mysql-connector-java:5.1.16"
-    compile "commons-collections:commons-collections:3.0"
-
     testCompile(
         "junit:junit:4.11",
         "org.hamcrest:hamcrest-library:1.3",
