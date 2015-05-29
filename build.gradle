@@ -8,11 +8,6 @@ buildscript {
 
 apply plugin: 'java'
 
-war {
-    baseName = 'empty'
-    version =  '0.1.0'
-}
-
 repositories {
     jcenter()
     mavenLocal()
